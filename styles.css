@@ -1,0 +1,148 @@
+
+body{
+    background-color: black;
+    background-image: url();
+}
+
+
+#start h1{
+    font-size: 2.5rem;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    text-decoration: solid;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+p{
+    color: white;
+}
+
+#container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container1 img{
+    border-radius: 8px;
+}
+
+
+#container1 div{
+    display: inline-block;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+}
+
+#Streetfoodcity p,ul,h2{
+    color: white;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+#Streetfoodcity{
+    background-color: gray;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#Streetfoodcity h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#Streetfoodcity p{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+#Streetfoodcity a{
+    display: block;
+    color: darkgoldenrod;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#Streetfoodcity a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+#Topstreetfood{
+    background-color: rgb(79, 59, 59);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#Topstreetfood h2{
+    font-size: 2rem;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+#culture{
+    background-color: rgba(105, 125, 114, 0.411);
+    text-decoration: whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#User{
+    background-color: rgb(35, 48, 48);
+    text-align: center;
+    text-decoration: whitesmoke;
+    padding: 30px;
+}
+
+#User img{
+    border-radius:30px;
+}
+
+#User form label{
+    color: whitesmoke;
+}
+
+#User form textarea{
+    border-radius: 30px;
+    border-width: 10px;
+    border-right: 10px;
+    border-left: 10px;
+}
+
+@media(max-width: 768px){
+    #Streetfoodcity{
+        padding: 20px;
+    }
+
+    #Streetfoodcity ul li{
+        font-size: 1rem;
+    }
+
+    #Streetfoodcity a{
+        font-size: 1rem;
+    }
+}
